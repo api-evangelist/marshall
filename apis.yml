@@ -1,7 +1,23 @@
 aid: marshall
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marshall.png
 name: Marshall
-description: 'Marshall is a company surfaced as a portfolio company of hongshan and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Marshall is a Swedish-British consumer audio brand, part of Marshall Group AB, known for its
+  iconic guitar amplifiers and a modern line of Bluetooth speakers, wireless headphones, and earbuds. Built
+  on more than 60 years of live-music heritage, Marshall sells direct-to-consumer through marshall.com across
+  amps, home and portable speakers, and personal audio. It was added to the API Evangelist network as a consumer
+  portfolio company of HongShan. Marshall publishes no public developer API, developer portal, or API documentation
+  at this time; this profile captures its public web identity and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/marshall/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Audio
+- Consumer Electronics
+- Headphones
+- Speakers
+- Amplifiers
+- Music
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://marshall.com
+- type: Support
+  url: https://www.marshall.com/us/en/support
+- type: Blog
+  url: https://www.marshall.com/us/en/backstage
+- type: PrivacyPolicy
+  url: https://www.marshall.com/us/en/policies/privacy-policy
+- type: TermsOfService
+  url: https://www.marshall.com/us/en/policies/terms-of-use
+- type: DomainSecurity
+  url: security/marshall-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
